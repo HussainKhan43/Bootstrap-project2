@@ -1,0 +1,270 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+.container-fluid{
+  background-color: white;
+  position: relative;
+  top: 8px;
+  
+}
+
+.navbar-nav{
+    margin-left: 350px;
+}
+
+.navbar-brand{
+    margin-left: 50px;
+}
+.navbar-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+
+#header-icon{
+    padding: 0px 15px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 5fr 2fr 2fr;
+    grid-gap: 10px;
+
+
+}
+
+.grid-item{
+      background-color: red;
+      border: 0px solid black;
+
+}
+
+.grid-item h4{
+    font-weight: 700;
+}
+
+#one{
+    grid-row-start: 1;
+    grid-row-end: 66;
+    background-image: url(images/category-1.jpg.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 250px 50px;
+}
+
+#two{
+    grid-row-start: 1;
+    grid-row-end: 34;
+    background-image: url(images/category-2.jpg.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 120px 30px;
+}
+
+#three{
+    grid-row-start: 1;
+    grid-row-end: 34;
+    background-image: url(images/category-3.jpg.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 120px 30px;
+
+}
+
+#four{
+    grid-column-start: 2;
+    grid-column-end:3;
+    grid-row-start: 34;
+    grid-row-end: 66;
+    background-image: url(images/category-4.jpg.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 120px 30px;
+
+    
+}
+
+#five{
+    grid-row-start: 34;
+    grid-row-end: 66;
+    background-image: url(images/category-5.jpg.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 120px 30px;
+
+}
+
+#shop{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #111111;
+    text-decoration:  3px underline solid red;
+}
+
+#header2{
+    margin-top: 50px;
+}
+
+#new{
+    text-decoration:  2px underline solid red;
+}
+
+#nav1{
+    padding-left: 150px;
+}
+
+#nav2{
+    padding-left: 100px;
+    gap: 20px;
+}
+
+.product{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.product__price{
+    text-align: center;
+    color: #111111;
+    font-weight: 600;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.carousel-caption{
+    margin-bottom: 100px;
+}
+
+#head{
+    font-size: 60px;
+    color: #111111;
+    font-family: "Cookie", cursive;
+}
+
+.hero-tag{
+    margin-top: 50px;
+    color: black;
+}
+
+#shop2{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #111111;
+    text-decoration:  3px underline solid red;
+}
+
+.section-title{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 600;
+    color: #111111;
+    text-decoration:  2px underline solid red;
+}
+
+.trend_container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+pre{
+    color: #111111;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.discount-area{
+   display: flex;
+   margin: 80px 250px;
+}
+
+.discount-text{
+    height: 390px;
+    width: 480px;
+    border: 0px solid black;
+    text-align: center;
+    align-content: center;
+    background-color: whitesmoke;
+}
+
+#Summer{
+    font-size: 60px;
+    font-family: "Cookie", cursive;
+    color: #ca1515;
+    line-height: 46px;
+    padding-bottom: 20px;
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    padding-top: 10px;
+}
+
+#time{
+    padding-top: 10px;
+}
+
+#shop3{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #111111;
+    text-decoration:  3px underline solid red;
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.services-item{
+    padding-top: 10px;
+}
+
+#service-i{
+    font-size: 36px;
+    color: #ca1515;
+}
+
+.img-sec{
+    display: flex;
+    margin-top: 50px;
+    height: 320;
+    width: 100%;
+}
+
+.footer-icon{
+    font-size: 20px;
+    gap:20px;
+    color: #111111;
+}
+
+.footer-copy{
+    text-align: center;
+    padding-top: 15px;
+}
